@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 
-public class Lab6GUI extends JPanel implements ActionListener{
+public class ShapeBuilder extends JPanel implements ActionListener{
 	
 	//instantiate control objects
 	private JPanel totalGUI, radioPanel, widthPanel, lengthPanel, heightPanel, radiusPanel;
@@ -426,9 +426,9 @@ public class Lab6GUI extends JPanel implements ActionListener{
     
     private static void createAndShowGUI() {
 
-		JFrame frame = new JFrame("GUI Lab 6 - David Jacoby");	
+		JFrame frame = new JFrame("Shape Builder");	
 
-		Lab6GUI demo = new Lab6GUI();  	
+		ShapeBuilder demo = new ShapeBuilder();  	
 		frame.setContentPane(demo.createContentPane());
 		
 		frame.setLocationRelativeTo(null);
